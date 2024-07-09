@@ -1,18 +1,19 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
+  "name": "Monime",
+  "logo": "/logo/monime.png",
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#0180ff",
+    "light": "#0180ff",
+    "dark": "#0180ff",
+    "background": {
+      "light": "#FFFFFF",
+      "dark": "#000000"
+    },
     "anchors": {
       "from": "#0D9373",
-      "to": "#07C983"
+      "to": "#0180ff"
     }
   },
   "topbarLinks": [
@@ -21,10 +22,6 @@
       "url": "mailto:hi@mintlify.com"
     }
   ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
-  },
   "tabs": [
     {
       "name": "API Reference",
@@ -51,11 +48,7 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
+      "pages": ["introduction", "quickstart", "development"]
     },
     {
       "group": "Essentials",
@@ -70,16 +63,29 @@
     },
     {
       "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
+      "pages": ["api-reference/introduction"]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Monime Endpoints",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        {
+          "group": "Banks",
+          "pages": [
+            "api-reference/endpoint/banks/get"
+          ]
+        },
+        {
+          "group": "Countries",
+          "pages": [
+            "api-reference/endpoint/countries/get"
+          ]
+        },
+        {
+          "group": "Mobile Money",
+          "pages": [
+            "api-reference/endpoint/momos/get"
+          ]
+        }
       ]
     }
   ],
