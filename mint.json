@@ -1,5 +1,10 @@
 {
   "$schema": "https://mintlify.com/schema.json",
+  "api": {
+    "playground": {
+      "mode": "simple"
+    }
+  },
   "name": "Monime",
   "logo": "/logo/monime.png",
   "favicon": "/favicon.svg",
@@ -70,28 +75,20 @@
       "pages": [
         {
           "group": "Banks",
-          "pages": [
-            "api-reference/endpoint/banks/get"
-          ]
+          "pages": ["api-reference/endpoint/banks/get"]
         },
         {
           "group": "Countries",
-          "pages": [
-            "api-reference/endpoint/countries/get"
-          ]
+          "pages": ["api-reference/endpoint/countries/get"]
         },
         {
           "group": "Mobile Money",
-          "pages": [
-            "api-reference/endpoint/momos/get"
-          ]
+          "pages": ["api-reference/endpoint/momos/get"]
         }
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "github": "https://github.com/mintlify"
   }
 }
