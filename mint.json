@@ -6,7 +6,7 @@
     }
   },
   "name": "Monime",
-  "logo": "/logo/monime.png",
+  "logo": "/assets/logo/monime.png",
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#0180ff",
@@ -38,8 +38,25 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "group": "Overview",
+      "pages": ["guide/introduction"]
+    },
+    {
+      "group": "Core Resources",
+      "pages": ["guide/core-resources/accounts"]
+    },
+    {
+      "group": "Payments",
+      "pages": [
+        {
+          "group": "Payments",
+          "pages": [
+            "guide/payments/payments", 
+            "guide/payments/payment-methods",
+            "guide/payments/payment-scheme"
+          ]
+        }
+      ]
     },
     {
       "group": "API Documentation",
