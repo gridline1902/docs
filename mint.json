@@ -48,19 +48,30 @@
     {
       "group": "Payments",
       "pages": [
-        {
-          "group": "Payments",
-          "pages": [
-            "guide/payments/payments", 
-            "guide/payments/payment-methods",
-            "guide/payments/payment-scheme"
-          ]
-        }
+        "guide/payments/payments",
+        "guide/payments/payment-methods",
+        "guide/payments/payment-providers",
+        "guide/payments/payment-scheme"
+      ]
+    },
+    {
+      "group": "Payouts",
+      "pages": [
+        "guide/payouts/payouts",
+        "guide/payouts/payout-methods",
+        "guide/payouts/payout-providers"
       ]
     },
     {
       "group": "API Documentation",
       "pages": ["api-reference/introduction"]
+    },
+    {
+      "group": "Core APIs",
+      "pages": [
+        "api-reference/resources/core/payments/payments",
+        "api-reference/resources/core/payouts/payouts"
+      ]
     },
     {
       "group": "Extra Resources",
